@@ -1,0 +1,33 @@
+
+
+CORS demo/study/experiment in ~/code/experi/nodejs/cors
+
+  102  cd nodejs
+  104  mkdir cors
+  105  cd cors
+  106  git clone git@github.com:auth0-blog/express-cors-demo.git
+  107  cd express-cors-demo/
+
+  109  npm install
+  110  npm run dev
+
+  1. Download the autho0, express cors git file
+  2. the demo shows a page with a button, if you click the button
+  	 a cors http request is made which is denied 
+	 	CallApi.vue ( makes cors request ) 
+
+  3. modify the express code to explicitly add the cors  which sends the cors headers
+  	
+
+  4. now add cors module  and modify the express code to have the simplified code which 
+  	does the same thing s as given above
+  150  npm install cors
+  151  npm install cors --save
+  171  git commit -m "Before the cors package"
+
+  5. now modify config file so that you have now explicitely set the cors header setting origin etc.
+
+  189  git commit -m "the cors is configured to restrict origin and the port"
+  201  cd javascript
+
+  ===================================================
